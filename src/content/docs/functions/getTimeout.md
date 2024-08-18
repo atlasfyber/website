@@ -25,7 +25,7 @@ This will return the duration of the specified timeout.
 
 ```js
 client.command({
-    name: "isTimeout",
+    name: "getTimeout",
     code: `
 $getTimeout[$get[timeoutID;duration]] $comment[Example duration value, 1723905246347]
 $let[timeoutID;$setTimeout[timeoutCommand;100s;{};true]]

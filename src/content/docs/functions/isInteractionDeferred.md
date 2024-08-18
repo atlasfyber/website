@@ -13,9 +13,10 @@ $isInteractionDeferred
 ```
 
 ## Example(s)
+
 This will return `true` because the interaction has been deferred.
 
-```aoi
+```js
 client.command({
     name: "isInteractionDeferred",
     prototype: "slash",
@@ -24,5 +25,6 @@ client.command({
 $isInteractionDeferred
 $interactionFollowUp[Hello World!]
 $interactionDefer[false]
+`
 });
 ```

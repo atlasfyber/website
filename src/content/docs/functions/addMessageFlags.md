@@ -1,8 +1,8 @@
 ---
- title: $addMessageFlags
- description: $addMessageFlags allows you to add flags to a message.
- id: addMessageFlags
- ---
+title: $addMessageFlags
+description: $addMessageFlags allows you to add flags to a message.
+id: addMessageFlags
+---
  
  `$addMessageFlags` allows you to add specific flags to a message.
  
